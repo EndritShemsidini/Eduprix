@@ -1,0 +1,208 @@
+body {
+  font-family: "Rubik",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+.background {
+  background-color: #10203f;
+}
+.searchtext {
+  color: #0a5483;
+}
+.fa-user {
+  color: #0292d3;
+}
+.searchButton {
+  border-radius: 200px !important;
+}
+.slideshow-wrapper {
+  margin-top: -270px;
+}
+.img-container {
+  position: relative;
+}
+.momopng {
+  position: absolute;
+  top: 180px;
+  left: 0;
+}
+
+.img-container a {
+  background-color: #0292d3;
+  color: #fff;
+  position: absolute;
+  top: 208px;
+  left: 66px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.custom-card {
+  height: 380px;
+}
+.explore {
+  background-color: #003294;
+}
+.datadiv {
+  background-color: #05a5f6;
+}
+.datasvg {
+  color: #05a5f6;
+}
+
+.threecards {
+  background-color: #e1f7ff;
+}
+.courses1 {
+  background-color: #e1f7ff !important;
+}
+.artspan {
+  background-color: #e1f2fa;
+  width: 40px;
+  height: 25px;
+  text-align: center;
+}
+
+.test {
+  right: 40px;
+  border-radius: 200px !important;
+}
+
+.slider-text {
+  bottom: 25vh;
+}
+
+.slideshow-wrapper .carousel-indicators {
+  bottom: -60px;
+  left: -18vh;
+  justify-content: start;
+  position: absolute;
+}
+
+.slideshow-wrapper .carousel-indicators button {
+  background-color: #003294 !important;
+  opacity: 1;
+  width: 11px;
+  height: 11px;
+}
+
+.slideshow-wrapper .carousel-indicators button.active {
+  width: 60px;
+  background-color: #00b2ff !important;
+}
+.sliderdiv {
+  background-color: #2257bf;
+}
+.student{
+  right: -24vh !important;
+  justify-content: end !important;
+  position: absolute !important;
+}
+
+.student button {
+  background-color: #003294 !important;
+  opacity: 1 !important;
+  width: 11px !important;
+  height: 11px !important;
+
+}
+.student button.active {
+  width: 60px !important;
+  background-color: #00b2ff !important;
+}
+
+.top-test {
+  color: #003294;
+  -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #003294;
+  font-size: 50px;
+}
+.explore-test{
+ 
+  -webkit-text-stroke: 1px #00b2ff;
+  -webkit-text-fill-color: #003294;
+  font-size:50px ;
+  
+}
+.fa-brands{
+  font-size: 50px;
+  color:#183672;
+}
+
+.counter {
+  right: -115px;
+  height: 525px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  background: rgba(34, 87, 191, 0.25);
+  opacity: .5;
+}
+
+.slider-buttons .carousel-control-prev,
+.slider-buttons .carousel-control-next
+ {
+ background-color:#003294 !important;
+ height: 35px;
+ width: 35px;
+ padding: 8px;
+ border-radius: 50%;
+}
+.hr-blogpost{
+  margin-top: -5px;
+}
+
+.card-test {
+  box-shadow: 0 7px 14px 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+}
+.updatepart{
+  background-color: #e0f6ff;
+}
+.eduprix2{
+  background-color: #003294;
+}
+.ftext{
+  color:#00a0f0;
+}
+
+@media(max-width: 768px) {
+  #eightcards .img-container .momopng{
+    top: 0;
+  }
+  #eightcards .img-container a{
+    top: 0;
+  }
+
+  .carousel-item .carousel-caption {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+  }
+
+  .carousel-item .carousel-caption h2 {
+    font-size: 2rem;
+  }
+
+  .carousel-item .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+.carousel-caption {
+  left: 28% !important;
+}
+.subscribe-btn{
+  background-color:#003294 !important ;
+  width: 312px;
+  /* border-radius: 0 !important; */
+}
+.explore-text{
+  color: #003294;
+  -webkit-text-fill-color:blue; 
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #003294;
+}

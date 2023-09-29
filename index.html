@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- navbar -->
+<div class="container-fluid background">
+ <div class="container">
+  <div class="row justify-content-between">
+   <div class="col-lg-3 col-md-3 col-xs-12 d-flex align-items-center">
+   <a href="index.html">
+    <img src="images/logo.png" alt="">
+   </a>
+   </div>
+   <div class="col-lg-6 col-md-6 col-xs-12 d-flex ">
+    <div class="input-group d-flex justify-content-center">
+      <p class="searchtext mb-0 text-uppercase">Search
+        <br>
+        Anything
+        </p>
+        <div class="form-outline d-flex align-items-center">
+          <input type="search" id="form1" class="form-control searchButton position-relative" placeholder="Search"/>
+          <button type="button" class="btn btn-primary position-absolut test">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+    
+      </div>
+   </div>
+   <div class="col-lg-3 col-md-3 col-xs-12 d-flex align-items-center justify-content-end">
+    <i class="fa-solid fa-user "></i>
+   </div>
+  </div>   
+ </div>
+</div>
+<!-- end of navbar -->
+<!-- part two -->
+<div class="container-fluid background">
+    <div class="position-relative">
+    <img src="images/bg-circle.png" class="circleimg position-absolut " alt="">
+    </div>
+</div>
+<!-- end of part two -->
+<!-- slideshow -->
+<div class="slideshow-section">
+<div class="container">
+<div class="slideshow-wrapper position-relative  pt-5 pb-0 px-3">
+  <div class="social-medias d-flex justify-content-end mb-2">
+    <i class="fa-brands fa-square-instagram me-2"></i>
+    <i class="fa-brands fa-square-facebook me-2"></i>
+    <i class="fa-brands fa-square-twitter me-2"></i>
+  </div>
+<div class="row">
+  <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="carousel">
+    <div class="counter text-white position-absolute top-0 d-none d-lg-block " >
+      <h1>01</h1>
+    </div>
+    <div class="carousel-indicators d-none d-lg-block">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/header-slider-1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/header-slider-2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/header-slider-3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="row justify-content-end">
+<div class="col-lg-9 col-md-9 col-xs-9">
+  <div class="d-flex align-items-center border me-3 py-3 px-2 sliderdiv">
+    <h2 class="p-2">250,998 people are learning with us</h2>
+    <a href="" class="ms-auto text-white">Learn More </a>
+    <i class="fa-solid fa-arrow-right-long mx-3 "></i>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+<!-- end of slideshow -->
+<!-- Top Courses -->
+<section class="py-5">
+<div class="container">
+  <div class="col-lg-12 col-md-12 col-xs-12">
+    <h1 class="top-test">
+      TOP COURSES
+    </h1>
+    </div>
+    <div class="row  mt-5" id="eightcards">
+       <!-- <div class="col-lg-3">
+        <div class="card" >
+          <div class="img-container">
+          <img src="images/art-masterclass.png" class="card-img-top artimg" alt="...">
+          <img src="images/moma.png" class="momopng" alt="">
+          <a href="" class="py-2 px-3">Free</a>
+          </div>
+          <div class="card-body mt-5">
+            <h5 class="card-title">The Professional Art Masterclass</h5>
+            <p>The museum of modern Art</p>
+          </div>
+        </div>
+      </div>
+  </div> -->
+ </div> 
+</section>
+<!-- end of Top Courses -->
+<!-- explore eduprix -->
+<div class="container-fluid explore py-5">
+  <div class="container">
+      <div class="my-5">
+        <h1 class="explore-test">EXPLORE EDUPRIX</h1>
+      </div>
+      <div class="row" id="exploreCards">
+    <!-- <div class="col-lg-3">
+      <div class="border d-flex datadiv align-items-center">
+        <img src="images/data-science.svg" class="py-4 px-3 datasvg" alt="">
+        <div class="">
+        <h5 class=" text-white">Data Science</h5>
+        <p>78 Courses</p>
+        </div>
+      </div>
+    </div> -->
+    
+  </div>
+</div>
+</div>
+<!-- end of eduprix -->
+<!-- slideshow -->
+<div class="container-fluid">
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-lg-10 col-md-10 col-xs-10">
+        <h1 class="top-test">STUDENT REVIEW</h1>
+      </div>
+     
+      <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="carousel">
+        <div class="carousel-indicators student position-absolut">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/student-review.png" class="d-block" alt="..." />
+            <div class="carousel-caption text-dark text-start overflow-hidden">
+              <h2>Emilie <br> Jones </h2>
+              <p>England</p>
+              <p>Eduprix is an ideal location for anybody who wants to learn something new or share what they know with others.  Eduprix is a worldwide platform for online learning that helps to connect with one another via knowledge. It comes highly recommended from my side.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/student-review.png" class="d-block " alt="...">
+            <div class="carousel-caption text-dark text-start">
+              <h2>Ainara <br> Vergara </h2>
+              <p>England</p>
+              <p>Eduprix is an ideal location for anybody who wants to learn something new or share what they know with others.  Eduprix is a worldwide platform for online learning that helps to connect with one another via knowledge. It comes highly recommended from my side.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/student-review.png" class="d-block " alt="...">
+            <div class="carousel-caption text-dark text-start">
+              <h2>Niek <br> Bove </h2>
+              <p>England</p>
+              <p>Eduprix is an ideal location for anybody who wants to learn something new or share what they know with others.  Eduprix is a worldwide platform for online learning that helps to connect with one another via knowledge. It comes highly recommended from my side.</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="slider-buttons top-0 end-0 position-absolute">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of slideshow -->
+<!--three cards -->
+<div class="container-fluid threecards mt-5">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <div class="card border-0 courses1" style="width: 18rem; height: 34rem;">
+          <img src="images/top-course.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-title text-center">1257</h1>
+            <p class="card-text text-center">TOP <br> COURSES</p>
+            <p class="card-text text-center">Take courses from the world’s best instructors and universities.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <div class="card border-0 courses1" style="width: 18rem; height: 34rem;">
+          <img src="images/happy-learners.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <br><br>
+            <h1 class="card-title text-center">1257</h1>
+            <p class="card-text text-center">TOP <br> COURSES</p>
+            <br>
+            <p class="card-text text-center">Learners from all around the world.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <div class="card border-0 courses1" style="width: 18rem;height: 34rem;">
+          <img src="images/instructors.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-title text-center">1257</h1>
+            <p class="card-text text-center">TOP <br> COURSES</p>
+            <p class="card-text text-center">Learn your favourite course with
+              world-class instructors.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of three cards -->
+
+<!-- recent blogpost -->
+<div class="container-fluid my-5">
+  <div class="container">
+    <h1 class="text-center my-5 top-test">RECENT BLOGPOST</h1>
+    <div class="row" id="blogCards">
+      <!-- <div class="col-lg-3">
+        <div class="card card-test" >
+          <img src="images/art-craft.png" class="card-img-top px-4 pt-4" alt="...">
+          <div class="card-body">
+            <div class="d-flex">
+              <span class="ms-2 artspan">Art</span>
+              <p class="ms-auto me-3">23 Nov 2021</p>
+            </div>
+            <hr class="hr-blogpost">
+            <h5 class="card-title ps-2">The limits between art and craft</h5>
+            <p class="card-text ps-2">Full Article</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>
+<!-- end of recent blogpost -->
+<!-- update part -->
+<div class="container-fluid py-5 updatepart">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-xs-12 d-flex justify-content-end">
+        <img src="images/cta.png" alt="">
+      </div>
+      <div class="col-lg-6 col-md-6 col-xs-12 d-flex align-items-center">
+      <div>
+        <h3 class="mb-3">Get Regular <br> Updates From</h3>
+        <img src="images/logo-footer.png" alt="">
+        <p class="my-3">SUBSCRIBE TO NEWSLETTER</p>
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            <button type="button" class="btn btn-primary subscribe-btn mt-2 rounded-0">Subscribe</button>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of update part -->
+<!-- footer -->
+<div class="container-fluid eduprix2">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-xs-12 d-flex align-items-center">
+        <div class="mt-5">
+          <img src="images/logo-footer.png" alt="">
+          <p class="text-white">We're a worldwide community for online learning and teaching
+            where anybody can acquire new skills and accomplish their
+            objectives by connecting with others. We are dedicated to
+            making a positive difference in the future of education.</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-xs-4 d-flex align-items-center " style="height: 400px;">
+        <div>
+          <h4 class="text-white">Eduprix</h4>
+          <div class="ftext">
+            <div class="mt-5">
+              <p><a href="#!" class="text-reset ms-1">About</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">Affiliate</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">Open Eduprix</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">Career</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">News</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-xs-4 d-flex align-items-center  ">
+        <div>
+          <h4 class="text-white">Connect</h4>
+          <div class="ftext">
+            <div class="mt-5">
+              <p><a href="#!" class="text-reset ms-1">About</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">Affiliate</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">Open Eduprix</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">Career</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">News</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-xs-4 d-flex align-items-center  ">
+        <div>
+          <h4 class="text-white">Legal</h4>
+          <div class="ftext">
+            <div class="mt-5">
+              <p><a href="#!" class="text-reset ms-1">About</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">Affiliate</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">Open Eduprix</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">Career</a></p>
+            </div>
+            <div class="">
+              <p><a href="#!" class="text-reset ms-1">News</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of footer -->
+<!--  -->
+<div class="container-fluid bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-xs-12 text-white pt-4 pb-2">
+        <p>All rights Reserved © Your Company, 2021</p>
+      </div>
+      <div class="col-lg-6 co-md-6 col-xs-12 text-white pt-4 pb-2">
+        <p class="text-end">Made with <i class="fa-solid fa-heart" style="color: #ff0000;"></i></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/d61877e0fb.js" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
